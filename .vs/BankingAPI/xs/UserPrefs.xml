@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{FB10EAA0-20DB-4248-B5B8-44334A1C24B7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPI/Models/Transaction.cs">
+    <Files>
+      <File FileName="BankingAPI/Models/Account.cs" Line="11" Column="1" />
+      <File FileName="BankingAPI/Models/Transaction.cs" Line="19" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BankingAPI" expanded="True">
+            <Node name="BankingAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Transaction.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BankingAPI FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

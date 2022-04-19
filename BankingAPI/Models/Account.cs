@@ -1,11 +1,17 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace BankingAPI.Models
 {
+    [Table("Accounts")]
     public class Account
     {
+        [Key]
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string AccountName { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public decimal CurrentAccountBalance { get; set; }
@@ -26,6 +32,8 @@ namespace BankingAPI.Models
         public Account()
         {
             AccountNumberGenerated = Convert.ToString((long)Math.Floor(rand.NextDouble() * 9_000_000_000L + 1_000_000_000L));
+
+            AccountName = $"{FirstName} {LastName}";
         }
 
     }

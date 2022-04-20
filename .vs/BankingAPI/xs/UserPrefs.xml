@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{FB10EAA0-20DB-4248-B5B8-44334A1C24B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPI/Models/Transaction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPI/DAL/DbContext.cs">
     <Files>
-      <File FileName="BankingAPI/Models/Account.cs" Line="11" Column="1" />
-      <File FileName="BankingAPI/Models/Transaction.cs" Line="19" Column="21" />
+      <File FileName="BankingAPI/Models/Account.cs" Line="36" Column="53" />
+      <File FileName="BankingAPI/Models/Transaction.cs" Line="9" Column="1" />
+      <File FileName="BankingAPI/DAL/DbContext.cs" Line="4" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BankingAPI" expanded="True">
             <Node name="BankingAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Transaction.cs" selected="True" />
+              <Node name="DAL" expanded="True">
+                <Node name="DbContext.cs" selected="True" />
               </Node>
             </Node>
           </Node>

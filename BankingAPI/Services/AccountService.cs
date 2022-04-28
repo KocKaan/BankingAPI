@@ -146,6 +146,8 @@ namespace BankingAPI.Services
 
             }
 
+            accountToBeUpdated.DateLastUpdated = DateTime.Now;
+
             _dbContext.Accounts.Update(accountToBeUpdated);
             _dbContext.SaveChanges();
         }

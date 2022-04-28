@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{FB10EAA0-20DB-4248-B5B8-44334A1C24B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPI/Services/AccountService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPI/Models/Account.cs">
     <Files>
-      <File FileName="BankingAPI/Models/Account.cs" Line="36" Column="53" />
-      <File FileName="BankingAPI/Models/Transaction.cs" Line="19" Column="55" />
-      <File FileName="BankingAPI/DAL/BankDbContext.cs" Line="16" Column="61" />
-      <File FileName="BankingAPI/Services/IAccountService.cs" Line="17" Column="29" />
-      <File FileName="BankingAPI/Services/Interfaces/ITransactionService.cs" Line="18" Column="2" />
-      <File FileName="BankingAPI/Models/Response.cs" Line="6" Column="38" />
-      <File FileName="BankingAPI/Services/AccountService.cs" Line="7" Column="10" />
+      <File FileName="BankingAPI/Models/Account.cs" Line="11" Column="9" />
+      <File FileName="BankingAPI/Models/Transaction.cs" Line="14" Column="45" />
+      <File FileName="BankingAPI/Services/AccountService.cs" Line="138" Column="25" />
+      <File FileName="BankingAPI/Profiles/AutoMapperProfiles.cs" Line="11" Column="58" />
+      <File FileName="BankingAPI/Models/RegisterNewAccountModel.cs" Line="32" Column="9" />
+      <File FileName="BankingAPI/Models/UpdateAccountModel.cs" Line="22" Column="52" />
+      <File FileName="BankingAPI/Models/GetAccountModel.cs" Line="6" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BankingAPI" expanded="True">
             <Node name="BankingAPI" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="AccountService.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Account.cs" selected="True" />
               </Node>
+              <Node name="Profiles" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>

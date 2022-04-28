@@ -13,6 +13,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using BankingAPI.DAL;
+using Microsoft.EntityFrameworkCore;
 
 namespace BankingAPI
 {
@@ -28,9 +30,13 @@ namespace BankingAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<BankDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("BankDbConnection")));
+
+            //not quite sure with this
+            
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddMicrosoftIdentityWebApi(Configuration.GetSection("AzureAdB2C"));
-
+            
             services.AddControllers();
         }
 

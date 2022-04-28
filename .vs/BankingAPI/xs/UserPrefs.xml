@@ -1,21 +1,22 @@
 ﻿<Properties StartupConfiguration="{FB10EAA0-20DB-4248-B5B8-44334A1C24B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPI/Models/Account.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPI/Services/AccountService.cs">
     <Files>
       <File FileName="BankingAPI/Models/Account.cs" Line="36" Column="53" />
-      <File FileName="BankingAPI/Models/Transaction.cs" />
+      <File FileName="BankingAPI/Models/Transaction.cs" Line="19" Column="55" />
       <File FileName="BankingAPI/DAL/BankDbContext.cs" Line="16" Column="61" />
-      <File FileName="BankingAPI/Startup.cs" />
-      <File FileName="BankingAPI/appsettings.json" />
+      <File FileName="BankingAPI/Services/IAccountService.cs" Line="17" Column="29" />
+      <File FileName="BankingAPI/Services/Interfaces/ITransactionService.cs" Line="18" Column="2" />
+      <File FileName="BankingAPI/Models/Response.cs" Line="6" Column="38" />
+      <File FileName="BankingAPI/Services/AccountService.cs" Line="7" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BankingAPI" expanded="True">
             <Node name="BankingAPI" expanded="True">
-              <Node name="DAL" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Account.cs" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="AccountService.cs" selected="True" />
               </Node>
             </Node>
           </Node>

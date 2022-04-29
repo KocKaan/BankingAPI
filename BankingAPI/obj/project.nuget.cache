@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dMt9OdSSzi8kdAzhJmHHHWyp5Orkmwzgf77RcFFWMkSz1wv52tfTRbLKV/3laCX4hYxOKra+w11FNeUss7w6AQ==",
+  "dgSpecHash": "ybFAhatGkdnOtKnh14jJZGOkwCvOBemmS5OC2zFp7rvzjHZTunotnXhJAMpznIDzm0U1dfGbJGbvMVQn6JWa8Q==",
   "success": true,
   "projectFilePath": "/Users/kaankarakas/Desktop/Coding Projects/BankingAPI/BankingAPI/BankingAPI.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "/Users/kaankarakas/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "/Users/kaankarakas/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.4.0/runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

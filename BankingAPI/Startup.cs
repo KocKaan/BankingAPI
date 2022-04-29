@@ -16,6 +16,8 @@ using Microsoft.Extensions.Logging;
 using BankingAPI.DAL;
 using Microsoft.EntityFrameworkCore;
 using BankingAPI.Services;
+using BankingAPI.Services.Interfaces;
+using BankingAPI.Utils;
 
 namespace BankingAPI
 {
@@ -35,7 +37,11 @@ namespace BankingAPI
 
             services.AddScoped<IAccountService, AccountService>();
 
+            services.AddScoped<ITransactionService, TransactionService>();
+
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
             services.AddSwaggerGen(x =>
             {

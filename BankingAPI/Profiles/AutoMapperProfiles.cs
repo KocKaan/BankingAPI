@@ -14,7 +14,7 @@ namespace BankingAPI.Profiles
 
             CreateMap<Account, GetAccountModel >();
 
-
+            CreateMap<TransactionRequestDto, Transaction>();
         }
     }
 }

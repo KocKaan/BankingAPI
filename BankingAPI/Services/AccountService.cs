@@ -114,7 +114,7 @@ namespace BankingAPI.Services
 
         public void Update(Account account, string Pin = null)
         {
-            var accountToBeUpdated = _dbContext.Accounts.Where(x => x.Email == account.Email).SingleOrDefault();
+            var accountToBeUpdated = _dbContext.Accounts.Find(account.Id);
             if (accountToBeUpdated == null) throw new ApplicationException("Application doesnt exist");
 
             //change email

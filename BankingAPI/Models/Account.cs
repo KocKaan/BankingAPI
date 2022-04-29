@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace BankingAPI.Models
 {
@@ -21,7 +22,10 @@ namespace BankingAPI.Models
         public string AccountNumberGenerated { get; set; }
 
         //storing the hash and salt of the Account Transaction pin
+        [JsonIgnore]
         public byte[] PinHash { get; set; }
+
+        [JsonIgnore]
         public byte[] PinSalt { get; set; }
         public DateTime DateCreated { get; set; }
         public DateTime DateLastUpdated { get; set; }

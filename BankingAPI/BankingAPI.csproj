@@ -32,6 +32,7 @@
     <None Remove="Services\Interfaces\" />
     <None Remove="Profiles\" />
     <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Utils\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -39,5 +40,6 @@
     <Folder Include="Services\" />
     <Folder Include="Services\Interfaces\" />
     <Folder Include="Profiles\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 </Project>

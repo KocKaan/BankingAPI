@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ezSSbnZ8XR9PZtgdSZG/I2cIuL3dPMjlutAksm490vxUVmWr60L9gIiThJf4rOv9P64DGjtmCI8+Dh9W78reDQ==",
+  "dgSpecHash": "dMt9OdSSzi8kdAzhJmHHHWyp5Orkmwzgf77RcFFWMkSz1wv52tfTRbLKV/3laCX4hYxOKra+w11FNeUss7w6AQ==",
   "success": true,
   "projectFilePath": "/Users/kaankarakas/Desktop/Coding Projects/BankingAPI/BankingAPI/BankingAPI.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "/Users/kaankarakas/.nuget/packages/microsoft.entityframeworkcore.relational/3.1.11/microsoft.entityframeworkcore.relational.3.1.11.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/microsoft.entityframeworkcore.sqlserver/3.1.11/microsoft.entityframeworkcore.sqlserver.3.1.11.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/microsoft.entityframeworkcore.tools/3.1.11/microsoft.entityframeworkcore.tools.3.1.11.nupkg.sha512",
+    "/Users/kaankarakas/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.11/microsoft.extensions.caching.abstractions.3.1.11.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/microsoft.extensions.caching.memory/3.1.11/microsoft.extensions.caching.memory.3.1.11.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/microsoft.extensions.configuration/3.1.11/microsoft.extensions.configuration.3.1.11.nupkg.sha512",
@@ -49,7 +50,10 @@
     "/Users/kaankarakas/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/kaankarakas/.nuget/packages/swashbuckle.aspnetcore/6.1.1/swashbuckle.aspnetcore.6.1.1.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/swashbuckle.aspnetcore.swagger/6.3.0/swashbuckle.aspnetcore.swagger.6.3.0.nupkg.sha512",
+    "/Users/kaankarakas/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.1/swashbuckle.aspnetcore.swaggergen.6.1.1.nupkg.sha512",
+    "/Users/kaankarakas/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.1/swashbuckle.aspnetcore.swaggerui.6.1.1.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512",
     "/Users/kaankarakas/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",

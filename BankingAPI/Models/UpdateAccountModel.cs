@@ -15,12 +15,12 @@ namespace BankingAPI.Models
         [RegularExpression(@"^[0-9]{4}$/", ErrorMessage = "")]
         public string Pin { get; set; }
 
-        /*
+        
         [Required]
         [Compare("Pin", ErrorMessage = "Pins do not match")]
         public string ConfirmPin { get; set; }
 
         public DateTime DateLastUpdated { get; set; }
-        */
+       
     }
 }

@@ -26,7 +26,7 @@ namespace BankingAPI.Models
         public DateTime DateLastUpdated { get; set; }
 
         [Required]
-        [RegularExpression(@"^[0-9]{4}$")]
+        [RegularExpression(@"^[0-9]{4}$",ErrorMessage ="Pin must not be more than 4 digits")]
         public string Pin { get; set; }
 
         [Required]

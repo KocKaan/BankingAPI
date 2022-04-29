@@ -64,3 +64,5 @@
 /Users/kaankarakas/Desktop/Coding Projects/BankingAPI/BankingAPI/obj/Debug/net5.0/ref/BankingAPI.dll
 /Users/kaankarakas/Desktop/Coding Projects/BankingAPI/BankingAPI/obj/Debug/net5.0/BankingAPI.pdb
 /Users/kaankarakas/Desktop/Coding Projects/BankingAPI/BankingAPI/obj/Debug/net5.0/BankingAPI.genruntimeconfig.cache
+/Users/kaankarakas/Desktop/Coding Projects/BankingAPI/BankingAPI/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/kaankarakas/Desktop/Coding Projects/BankingAPI/BankingAPI/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll

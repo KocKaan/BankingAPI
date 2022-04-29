@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using BankingAPI.DAL;
 using Microsoft.EntityFrameworkCore;
+using BankingAPI.Services;
 
 namespace BankingAPI
 {
@@ -32,11 +33,29 @@ namespace BankingAPI
         {
             services.AddDbContext<BankDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("BankDbConnection")));
 
+            services.AddScoped<IAccountService, AccountService>();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddSwaggerGen(x =>
+            {
+            x.SwaggerDoc("v2",new Microsoft.OpenApi.Models.OpenApiInfo{
+                Title= "Banking Api doc",
+                Version= "v2",
+                Description= "Trial for banking transactions",
+                Contact= new Microsoft.OpenApi.Models.OpenApiContact
+                {
+                    Name= "Kaan Karakas",
+                    Email= "kk4291@nyu.edu",
+                }
+            });
+        });
+
             //not quite sure with this
-            
+            /*
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddMicrosoftIdentityWebApi(Configuration.GetSection("AzureAdB2C"));
-            
+            */
             services.AddControllers();
         }
 
@@ -52,8 +71,15 @@ namespace BankingAPI
 
             app.UseRouting();
 
-            app.UseAuthentication();
+           // app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(x =>
+            {
+                var prefix = string.IsNullOrEmpty(x.RoutePrefix) ? "." : "..";
+                x.SwaggerEndpoint($"{prefix}/swagger/v2/swagger.json", "Banking Api doc");
+            });
 
             app.UseEndpoints(endpoints =>
             {

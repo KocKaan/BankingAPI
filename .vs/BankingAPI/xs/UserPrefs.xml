@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{FB10EAA0-20DB-4248-B5B8-44334A1C24B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPI/Models/AuthenticateModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPI/Startup.cs">
     <Files>
       <File FileName="BankingAPI/Models/Account.cs" Line="28" Column="1" />
       <File FileName="BankingAPI/Models/Transaction.cs" Line="14" Column="45" />
       <File FileName="BankingAPI/Services/AccountService.cs" Line="146" Column="1" />
       <File FileName="BankingAPI/Profiles/AutoMapperProfiles.cs" Line="11" Column="58" />
-      <File FileName="BankingAPI/Models/RegisterNewAccountModel.cs" Line="32" Column="9" />
-      <File FileName="BankingAPI/Models/UpdateAccountModel.cs" Line="22" Column="52" />
-      <File FileName="BankingAPI/Controllers/AccountsController.cs" Line="54" Column="1" />
-      <File FileName="BankingAPI/Models/AuthenticateModel.cs" Line="1" Column="1" />
+      <File FileName="BankingAPI/Models/RegisterNewAccountModel.cs" Line="35" Column="1" />
+      <File FileName="BankingAPI/Models/UpdateAccountModel.cs" Line="24" Column="8" />
+      <File FileName="BankingAPI/Controllers/AccountsController.cs" Line="96" Column="2" />
+      <File FileName="BankingAPI/Models/AuthenticateModel.cs" Line="13" Column="28" />
+      <File FileName="BankingAPI/Startup.cs" Line="54" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,21 +17,23 @@
           <Node name="BankingAPI" expanded="True">
             <Node name="BankingAPI" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="AuthenticateModel.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Profiles" expanded="True" />
               <Node name="Services" expanded="True">
                 <Node name="Interfaces" expanded="True" />
               </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BankingAPI FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.BankingAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
